@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Diseño Gráfico</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-text">
+            <span>L</span>
+            <span>O</span>
+            <span>A</span>
+            <span>D</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+        </div>
+    </div>
+
+    <!-- Cursor personalizado -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navegación -->
+    <nav class="main-nav">
+        <div class="nav-logo">Alejandro Granero</div>
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero" data-scroll>Inicio</a></li>
+            <li><a href="#about" data-scroll>Sobre Mí</a></li>
+            <li><a href="#projects" data-scroll>Proyectos</a></li>
+            <li><a href="#webprojects" data-scroll>Web</a></li>
+            <li><a href="#gallery" data-scroll>Galería</a></li>
+            <li><a href="#videos" data-scroll>Videos</a></li>
+            <li><a href="#contact" data-scroll>Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Menú completo -->
+    <div class="fullscreen-menu">
+        <div class="menu-items">
+            <a href="#hero" class="menu-item" data-scroll>Inicio</a>
+            <a href="#about" class="menu-item" data-scroll>Sobre Mí</a>
+            <a href="#projects" class="menu-item" data-scroll>Proyectos</a>
+            <a href="#webprojects" class="menu-item" data-scroll>Web</a>
+            <a href="#gallery" class="menu-item" data-scroll>Galería</a>
+            <a href="#videos" class="menu-item" data-scroll>Videos</a>
+            <a href="#contact" class="menu-item" data-scroll>Contacto</a>
+        </div>
+    </div>
+
+    <!-- Sección Hero -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-line">Diseño</span>
+                <span class="hero-title-line">Gráfico &</span>
+                <span class="hero-title-line">Web UI</span>
+            </h1>
+            <div class="hero-subtitle">Portfolio <span class="year">2025</span></div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="header-decoration">
+                    <span class="line"></span>
+                    <span class="dot"></span>
+                </div>
+                <h2 class="section-title">Sobre <em>Mí</em></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="large-text">Diseñador gráfico especializado en <br><span class="highlight">entornos digitales</span>.</p>
+                    <p>Graduado en Multimedia y Artes Digitales por la Universidad Católica de Valencia, con un máster en Desarrollo de Sitios y Aplicaciones Web por la Universitat Oberta de Catalunya. Me apasiona el diseño gráfico, el desarrollo web y todo lo relacionado con la creatividad y la tecnología.</p>
+                    <p>Cuento con habilidades avanzadas en Adobe Creative Cloud, Cinema 4D, HTML y CSS. Además, tengo experiencia en herramientas de Microsoft Office, comunicación efectiva y trabajo en equipo.</p>
+                    
+                    <div class="cv-link">
+                        <a href="assets/docs/cv.pdf" target="_blank" class="btn-download">
+                            Descargar CV
+                        </a>
+                    </div>
+                    
+                    <div class="skills">
+                        <div class="skill">Diseño Editorial</div>
+                        <div class="skill">Branding</div>
+                        <div class="skill">UX/UI</div>
+                        <div class="skill">Ilustración</div>
+                        <div class="skill">Tipografía</div>
+                        <div class="skill">Motion Graphics</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="assets/images/profile.png" alt="Foto perfil">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <div class="header-decoration">
+                    <span class="line"></span>
+                    <span class="dot"></span>
+                </div>
+                <h2 class="section-title">Pro<span class="rotate-text">y</span>ectos</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="assets/images/project1.png" alt="Proyecto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title"> Creación de newsletters informativas</h3>
+                        <div class="project-category">Diseño Editorial</div>
+                        <p class="project-description">Elaboración de newsletters corporativas para web.</p>
+                        <!-- <a href="#" class="project-link">Ver detalles</a> -->
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="assets/images/project2.png" alt="Proyecto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Maquetación para imprenta</h3>
+                        <div class="project-category">Diseño Editorial</div>
+                        <p class="project-description">Proyectos de diseño y maquetación para publicaciones físicas.</p>
+                        <!-- <a href="#" class="project-link">Ver detalles</a> -->
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="assets/images/project3.png" alt="Proyecto 3">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Reelvora</h3>
+                        <div class="project-category">UI/UX</div>
+                        <p class="project-description">Diseño y desarrollo de una aplicación web para recomendaciones personalizadas de películas, integrando datos de TMDb.</p>
+                        <!-- <a href="#" class="project-link">Ver detalles</a> -->
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="assets/images/project4.png" alt="Proyecto 4">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Workflows AI</h3>
+                        <div class="project-category">UX/UI</div>
+                        <p class="project-description">Desarrollo de Workflows para generación avanzada de imágenes mediante Inteligencia Artificial con ComfyUI.</p>
+                        <!-- <a href="#" class="project-link">Ver detalles</a> -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta">
+                <!-- <a href="#" class="btn btn-primary">Ver todos los proyectos</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos Web -->
+    <section id="webprojects" class="webprojects">
+        <div class="container">
+            <div class="section-header">
+                <div class="header-decoration">
+                    <span class="line"></span>
+                    <span class="dot"></span>
+                </div>
+                <h2 class="section-title">Proyectos <span class="highlighted">Web</span></h2>
+            </div>
+            
+            <div class="webprojects-grid">
+                <div class="webproject-item">
+                    <div class="webproject-content">
+                        <h3 class="webproject-title">Concurso de Cocina Responsive</h3>
+                        <p class="webproject-description">Desarrollo de un sitio web responsive con Boilerplate y Bootstrap para promocionar un concurso de cocina.</p>
+                        <div class="webproject-links">
+                            <a href="https://github.com/agranerono/pec2-boilerplate-uoc" class="webproject-link" target="_blank">
+                                <i class="fab fa-github"></i> Repositorio
+                            </a>
+                            <a href="https://pec2-boilerplate-uoc.netlify.app/" class="webproject-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="webproject-preview">
+                        <img src="assets/images/web1.png" alt="Concurso de Cocina Responsive">
+                    </div>
+                </div>
+
+                <div class="webproject-item">
+                    <div class="webproject-content">
+                        <h3 class="webproject-title">Sitio Web Optimizado</h3>
+                        <p class="webproject-description">Optimización web basada en el análisis con PageSpeed Insights, lazy loading y carga asíncrona de recursos.</p>
+                        <div class="webproject-links">
+                            <a href="https://github.com/agranerono/pec1-html-css" class="webproject-link" target="_blank">
+                                <i class="fab fa-github"></i> Repositorio
+                            </a>
+                            <a href="https://pec1-html-css-the-beatles.netlify.app/" class="webproject-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="webproject-preview">
+                        <img src="assets/images/web2.png" alt="Sitio Web Optimizado">
+                    </div>
+                </div>
+            <!--
+                <div class="webproject-item">
+                    <div class="webproject-content">
+                        <h3 class="webproject-title">Dashboard Analítico</h3>
+                        <p class="webproject-description">Panel de control con gráficos interactivos y visualización de datos en tiempo real.</p>
+                        <div class="webproject-links">
+                            <a href="https://github.com/username/repo3" class="webproject-link" target="_blank">
+                                <i class="fab fa-github"></i> Repositorio
+                            </a>
+                            <a href="https://username.github.io/repo3" class="webproject-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="webproject-preview">
+                        <img src="assets/images/web3.jpg" alt="Dashboard Analítico">
+                    </div>
+                </div>
+            -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <div class="header-decoration">
+                    <span class="line"></span>
+                    <span class="dot"></span>
+                </div>
+                <h2 class="section-title">Gale<span class="highlighted">ría</span></h2>
+            </div>
+            
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <!-- <button class="filter-btn" data-filter="editorial">Editorial</button>-->
+                <button class="filter-btn" data-filter="packaging">Packaging</button>
+                <button class="filter-btn" data-filter="ilustracion">Ilustración</button>
+            </div>
+            
+            <div class="gallery-grid">
+
+                <div class="gallery-item" data-category="branding">
+                    <img src="assets/images/gallery5.png" alt="Trabajo 5">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Diseño de logotipo</div>
+                        <div class="gallery-item-category">Branding</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="branding">
+                    <img src="assets/images/gallery6.png" alt="Trabajo 6">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Desarrollo de marca</div>
+                        <div class="gallery-item-category">Branding</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="packaging">
+                    <img src="assets/images/gallery1.png" alt="Trabajo 1">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Modelado 3D para catálogo</div>
+                        <div class="gallery-item-category">Packaging</div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="packaging">
+                    <img src="assets/images/gallery2.png" alt="Trabajo 2">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Modelado 3D de producto</div>
+                        <div class="gallery-item-category">Packaging</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="ilustracion">
+                    <img src="assets/images/gallery4.png" alt="Trabajo 4">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Cómic realizado en Illsutrator</div>
+                        <div class="gallery-item-category">Ilustración</div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="ilustracion">
+                    <img src="assets/images/gallery3.gif" alt="Trabajo 3">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Animación Flash</div>
+                        <div class="gallery-item-category">Ilustración</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- Sección Videos -->
+<section id="videos" class="videos">
+    <div class="container">
+        <div class="section-header">
+            <div class="header-decoration">
+                <span class="line"></span>
+                <span class="dot"></span>
+            </div>
+            <h2 class="section-title">Vi<em>deos</em></h2>
+        </div>
+        
+        <div class="videos-grid">
+            <div class="video-item">
+                <div class="video-thumbnail" data-video-src="assets/videos/video1.mp4">
+                    <img src="assets/images/video1.png" alt="Logotipo animado">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Logotipo animado</h3>
+                    <div class="video-duration">0:06</div>
+                </div>
+            </div>
+            
+            <div class="video-item">
+                <div class="video-thumbnail" data-video-src="assets/videos/video2.mp4">
+                    <img src="assets/images/video2.png" alt="Anuncio para redes">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Anuncio para redes</h3>
+                    <div class="video-duration">0:10</div>
+                </div>
+            </div>
+            
+            <div class="video-item">
+                <div class="video-thumbnail" data-video-src="assets/videos/video3.mp4">
+                    <img src="assets/images/video3.png" alt="Catálogo online">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">Catálogo online</h3>
+                    <div class="video-duration">0:20</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Contacto -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <div class="header-decoration">
+                <span class="line"></span>
+                <span class="dot"></span>
+            </div>
+            <h2 class="section-title">Con<span class="accent">tacto</span></h2>
+        </div>
+        
+        <div class="contact-content">
+            <div class="contact-info-wrapper">
+                <div class="contact-info">
+                    <div class="contact-heading">
+                        <h3>¿Tienes un proyecto en mente?</h3>
+                        <p class="large-text">Hablemos sobre ello</p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <p>alejandroagn15@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Teléfono</h4>
+                                <p>+34 609 25 83 35</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Ubicación</h4>
+                                <p>Valencia, Comunidad Valenciana</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-visual" id="interactive-bubbles">
+                    <!-- SVG con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Sección LinkedIn (separada visualmente pero parte del mismo ID) -->
+    <div class="linkedin-section">
+        <div class="container">
+            <div class="linkedin-container">
+                <div class="linkedin-content">
+                    <div class="linkedin-text">
+                        <h3>¡Conectemos en <span>LinkedIn</span>!</h3>
+                        <p>Estoy disponible para colaboraciones y nuevos proyectos. ¿Hablamos?</p>
+                    </div>
+                    <div class="linkedin-cta">
+                        <a href="https://www.linkedin.com/in/alejandro-granero-nogales/" class="linkedin-button" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>Visitar mi perfil</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Alejandro Granero Nogales</div>
+                <div class="footer-copyright">© 2025 Todos los derechos reservados</div>
+                <div class="footer-back-to-top">
+                    <a href="#hero" data-scroll>
+                        <span>Volver arriba</span>
+                        <i class="fas fa-arrow-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
