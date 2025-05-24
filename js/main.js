@@ -466,8 +466,8 @@ function initAnimations() {
             duration: 0.6 * ANIMATION_SPEED,
             scrollTrigger: {
                 trigger: header,
-                start: 'top 85%',
-                end: 'center 30%',
+                start: 'top 80%',
+                end: 'center 20%',
                 toggleActions: 'play reverse play reverse'
             }
         });
