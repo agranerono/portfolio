@@ -1211,6 +1211,33 @@ section {
   z-index: 1;
 }
 
+/* Estilo específico para el enlace de LinkedIn */
+.method-info a {
+  color: var(--color-gray);
+  transition: var(--transition);
+  position: relative;
+  display: inline-block;
+}
+
+.method-info a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--color-primary);
+  transition: width 0.3s ease;
+}
+
+.method-info a:hover {
+  color: var(--color-primary);
+}
+
+.method-info a:hover::after {
+  width: 100%;
+}
+
 /* Sección LinkedIn */
 .linkedin-section {
   background-color: #0077B5;

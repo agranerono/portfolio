@@ -421,7 +421,7 @@ function initAnimations() {
             duration: 0.7 * ANIMATION_SPEED,
             scrollTrigger: {
                 trigger: '.linkedin-section',
-                start: 'top 95%',
+                start: 'top 80%',
                 end: 'bottom 10%',
                 toggleActions: 'play reverse play reverse'
             }
